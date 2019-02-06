@@ -1,8 +1,5 @@
-# StudentHelper
+# Sessiacycle
 #### Язык реализации: C#  
 #### Технологии: Xamarin Forms  
 #### Среда разработки: Visual Studio 2017  
-#### Краткое описание:
-Приложение
-
 
