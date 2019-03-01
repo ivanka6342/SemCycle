@@ -3,7 +3,7 @@
 **/*.sln
 **/*.user
 **/*.csproj
-**/*.
+**/*.txt
 **/Assets/**
 **/bin/**
 **/obj/**
