@@ -1,9 +1,10 @@
 
-#exclude project settings
-**/*.sln
+# project setting files
 **/*.user
-**/*.csproj
 **/*.txt
-**/Assets/**
+**/*.vsp
+**/*.vspx
+
+# unnecessary directories
 **/bin/**
 **/obj/**
