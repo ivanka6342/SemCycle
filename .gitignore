@@ -1,1 +1,9 @@
 
+#exclude project settings
+**/*.sln
+**/*.user
+**/*.csproj
+**/*.
+**/Assets/**
+**/bin/**
+**/obj/**
