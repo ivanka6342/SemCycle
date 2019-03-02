@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SemCycle.LabsPage">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Always"                                
+        Padding="30"
+        HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
+            <StackLayout>
+                <Grid ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Лабораторная 1" FontSize="Default" Grid.Column="1" Grid.Row="0" 
+                     HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    <Button Text = "3 дня" FontSize="Default" BorderWidth="0"                 
+                    Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="0" TextColor="Black"
+                    BackgroundColor="Red" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </Grid>
+
+                <Grid ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Лабораторная 2" FontSize="Default" Grid.Column="1" Grid.Row="0" 
+                     HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    <Button Text = "6 дней" FontSize="Default" BorderWidth="0"                 
+                    Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="0" TextColor="Black"
+                    BackgroundColor="Yellow" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </Grid>
+
+                <Grid ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Лабораторная 3" FontSize="Default" Grid.Column="1" Grid.Row="0" 
+                     HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    <Button Text = "8 дней" FontSize="Default" BorderWidth="0"                 
+                    Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="0" TextColor="Black"
+                    BackgroundColor="Green" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </Grid>
+
+                <Grid ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Лабораторная 3" FontSize="Default" Grid.Column="1" Grid.Row="0" 
+                     HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    <Button Text = "8 дней" FontSize="Default" BorderWidth="0"                 
+                    Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="0" TextColor="Black"
+                    BackgroundColor="Green" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </Grid>
+
+                <Grid ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Лабораторная 3" FontSize="Default" Grid.Column="1" Grid.Row="0" 
+                     HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    <Button Text = "8 дней" FontSize="Default" BorderWidth="0"                 
+                    Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="0" TextColor="Black"
+                    BackgroundColor="Green" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </Grid>
+
+                <Grid ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Лабораторная 3" FontSize="Default" Grid.Column="1" Grid.Row="0" 
+                     HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    <Button Text = "8 дней" FontSize="Default" BorderWidth="0"                 
+                    Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="0" TextColor="Black"
+                    BackgroundColor="Green" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
