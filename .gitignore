@@ -8,3 +8,4 @@
 # unnecessary directories
 **/bin/**
 **/obj/**
+**/.vs/**
