@@ -6,5 +6,29 @@ namespace SemCycle.DataBase
 {
     class EduProcess
     {
+        private static int currentSem = 1;
+
+        protected List<Semester> semList = new List<Semester> ();
+
+        public static int CurrentSem { get => currentSem; set => currentSem = value; }
+
+        public EduProcess()
+        {
+
+        }
+        public void addSem()
+        {
+            semList.Add(new Semester(currentSem));
+            currentSem++;
+        }
+        public void deleteSem(int num)
+        {
+
+        }
+        public Semester getSem(int num)
+        {
+            return semList[num];
+        }
+
     }
 }
