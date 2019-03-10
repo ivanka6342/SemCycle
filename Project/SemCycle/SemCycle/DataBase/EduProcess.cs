@@ -16,6 +16,10 @@ namespace SemCycle.DataBase
         {
 
         }
+        public void ClearDiscipline(int i)
+        {
+            semList[i].ClearDiscipline();
+        }
         public void addSem()
         {
             semList.Add(new Semester(currentSem));
@@ -24,6 +28,10 @@ namespace SemCycle.DataBase
         public void deleteSem(int num)
         {
 
+        }
+        public int GetSizeSemList()
+        {
+            return semList.Count;
         }
         public Semester getSem(int num)
         {

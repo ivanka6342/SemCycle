@@ -10,7 +10,9 @@ namespace SemCycle
     public partial class MainPage : ContentPage
     {
         EduProcess MainObj = new EduProcess();
-        string[][] terms = new string[8][];
+        //string[][] terms = new string[8][];
+        protected string[] terms = new string[] { "Добавление дисциплины","Просмотр дисциплин", "Редактирование дисциплин", "Удаление семестра", };
+        protected int CurrSem;
 
         public MainPage()
         {
@@ -33,9 +35,9 @@ namespace SemCycle
             };
             addSem.Clicked += AddSem_Clicked;
             Header.Children.Add(addSem);
-            
-            terms[0] = new string[] { "ADD", "ОАиП", "Математика", "Физика", "История" };
-            terms[1] = new string[] { "ADD","АиЛОВТ", "ILOVEiT", "ОАиП", "Математика", "Физика" };
+
+            //terms[0] = new string[] { "ADD", "ОАиП", "Математика", "Физика", "История" };
+            //terms[1] = new string[] { "Добавление", "Просмотр дисциплин", "Редактирование дисциплин", "Удаление семестра", "Математика", "Физика" };
         }
         private void AddSem_Clicked(object sender, EventArgs e)
         {
@@ -54,9 +56,10 @@ namespace SemCycle
                 BorderRadius = 0,
                 BackgroundColor = Color.FromHex("#5677FC"),
             };
-            MainObj.addSem();
             Sem.Clicked += Sem_Clicked;
             Header.Children.Add(Sem);
+
+            MainObj.addSem();
         }
         private void Sem_Clicked(object sender, EventArgs e)
         {
@@ -70,10 +73,13 @@ namespace SemCycle
             {
                 if ((Button)list[i] == (Button)sender)
                 {
-                    Term.ItemsSource = terms[i];
-                    Term.ItemTapped += ToNext;
+                    //Term.ItemsSource = terms[i-1];
+                    //Term.ItemTapped += ToNext;
+                    CurrSem = i - 1;
                 }
             }
+            Term.ItemsSource = terms;
+            Term.ItemTapped += ToNext;
 
         }
 
@@ -82,14 +88,17 @@ namespace SemCycle
             if (e.Item != null)
             {
                 String str = e.Item.ToString();
-                if (str == "ADD")
-                {
+                if (str == "Добавление")
                     await Navigation.PushAsync(new DisciplineNotes());
-                }
-                else
-                {
+                if (str == "Просмотр дисциплин")
                     await Navigation.PushAsync(new DisciplineNotes());
-                }
+                if (str == "Редактирование дисциплин")
+                    await Navigation.PushAsync(new DisciplineNotes());
+                if (str == "Удаление семестра")
+                    if(CurrSem+1 == MainObj.GetSizeSemList())
+                        MainObj.deleteSem(CurrSem);
+                    else
+                        MainObj.ClearDiscipline(CurrSem);
             }
             ((ListView)sender).SelectedItem = null;          
         }

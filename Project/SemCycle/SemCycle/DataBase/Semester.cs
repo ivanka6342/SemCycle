@@ -14,6 +14,10 @@ namespace SemCycle.DataBase
         {
 
         }
+        public void ClearDiscipline()
+        {
+            DisciplineList.Clear();
+        }
         public Semester(int num)
         {
             semNumber = num;
