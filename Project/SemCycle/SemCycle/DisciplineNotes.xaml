@@ -5,27 +5,25 @@
     <ContentPage.Content>
         <Grid Padding="15">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="3*" />
-                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="*" />
+                
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="10*" />
-                <RowDefinition Height="2*" />
-                <RowDefinition Height="2*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
-
-            <Editor Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" />
-            <DatePicker Format="D" Date="6/05/2018"
-         Grid.Column="1" Grid.Row="1" >
-                <DatePicker.MinimumDate>6/01/2016</DatePicker.MinimumDate>
-                <DatePicker.MaximumDate>6/30/2024</DatePicker.MaximumDate>
-            </DatePicker>
-            <Entry Placeholder = "Ф.И.О."
-               Grid.Column="1" Grid.Row="2" />
-            <Label Text="Преподаватель" FontSize="Medium" Grid.Column="0" Grid.Row="2" 
-                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
-            <Label Text="Дата экзамена" FontSize="Medium" Grid.Column="0" Grid.Row="1" 
-                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+            <Entry Placeholder="Название" Grid.Row="0" HorizontalTextAlignment="Center" x:Name ="name"/>
+            <Entry Placeholder="Кол-во лабораторных (всего)" Grid.Row="1" HorizontalTextAlignment="Center" x:Name ="all"/>
+            <Entry Placeholder="Кол-во лабораторных (сдано)" Grid.Row="2" HorizontalTextAlignment="Center" x:Name ="done"/>
+            <Entry Placeholder="Дополнительная информация" Grid.Row="3" HorizontalTextAlignment="Center" x:Name ="addit"/>
+            <Button Text="Добавить" Grid.Row="6"  Clicked="OnButtonClicked"/>
+           
         </Grid>
     </ContentPage.Content>
 </ContentPage>

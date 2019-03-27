@@ -4,19 +4,21 @@ using System.Text;
 
 namespace SemCycle.DataBase
 {
-    class Discipline
+    public class Discipline
     {
-        protected List<Lab> labList = new List<Lab>();
-        protected DateTime deadline;
-        protected string teacher = "";
-        protected int importance;
+        private List<Lab> labList;
         private string name;
-        private string note;
-
-        protected string Name { get => name; set => name = value; }
-        protected string Note { get => note; set => note = value; }
-
-        public Lab getLab(string name)
+        private string additional;
+        private int numDoneLab;
+       
+        public Discipline(string n, string a, int l, int dL)
+        {
+            name = n;
+            additional = a;
+            labList = new List<Lab>(l);
+            numDoneLab = dL;
+        }
+       /* public Lab getLab(string name)
         {
             return labList[1];
         }
@@ -31,7 +33,7 @@ namespace SemCycle.DataBase
         public void setDeadLine(DateTime time)
         {
             this.deadline = time;
-        }
+        }*/
 
     }
 }

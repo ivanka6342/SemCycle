@@ -4,9 +4,9 @@ using System.Text;
 
 namespace SemCycle.DataBase
 {
-    class Semester
+    public class Semester
     {
-        protected List<Discipline> DisciplineList = new List<Discipline>();
+        private List<Discipline> DisciplineList = new List<Discipline>();
         private int semNumber;
         protected int SemNumber { get => semNumber; set => semNumber = value; }
 
@@ -22,14 +22,16 @@ namespace SemCycle.DataBase
         {
             semNumber = num;
         }
-        public Discipline getDiscipline(String name)
+      /*  public Discipline getDiscipline(String name)
         {
             return DisciplineList[1];
-        }
-        public void addDiscipline()
+        }*/
+        public void addDiscipline(Discipline inputDisc)
         {
-
+            DisciplineList.Add(inputDisc);
         }
+
+
         public void deleteDiscipline(String name)
         {
 
