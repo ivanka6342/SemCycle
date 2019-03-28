@@ -32,7 +32,7 @@
   3.3 [Пути улучшения архитектуры](#way_upgrade)  
 
 
-## Часть 1 <a name="part3"></a>
+## Часть 1 <a name="part1"></a>
 
 ### 1. Тип приложения <a name="1"></a>
 Проект предполагает проектирование и создание нативного android-приложения для отслеживания процесса сдачи работ на языке C# с использованием технологии Xamarin
@@ -71,26 +71,26 @@
 
 ### 5. Пути реализации сквозной функциональности <a name="5"></a>
 
-### 6. To Be Архитектура <a name="6"></a>
-Архитектурное решение команды по реализации идеи можно увидеть на [структурной схеме](https://github.com/amidovitch/SemCycle/blob/master/view/architecture/structure.png) <br>
+### 6. To Be Архитектура: <a name="6"></a>
+Архитектурное решение команды по реализации идеи можно увидеть на структурной схеме
+![](https://github.com/amidovitch/SemCycle/blob/master/view/architecture/structure.png) <br>
 Наглядный пример желаемого GUI приведен с помощью [мокапов].(https://github.com/amidovitch/SemCycle/tree/master/view/mockups) <br>
 
- <a name="part2"/> 
-## Часть 2
  
- <a name="as_is"/> 
-## As is architecture:
+## Часть 2 <a name="part2"/></a>
  
- Диаграмма классов(https://github.com/amidovitch/SemCycle/documentation/DiagramsUML/classes/Class Diagram.png)  <br>
-<a name="part3"/> 
-## Часть 3
-<a name="compare"/>
-  
-**1.** 
-<a name="analysis"/>
  
-**2.** 
+## As is architecture:<a name="as_is"/></a>
+ Диаграмма классов <br>
+ ![](https://github.com/amidovitch/SemCycle/blob/master/documentation/DiagramsUML/classes/ClassDiagram.png)  <br>
+ 
+## Часть 3 <a name="part3"/></a>
 
-<a name="way_upgrade"/>
+  
+**1. Сравнение** <a name="compare"/></a>
+
  
-**3.** 
+**2. Анализ** <a name="analysis"/></a>
+
+ 
+**3. Пути улучшения архитектуры** <a name="way_upgrade"/></a>
