@@ -62,7 +62,7 @@ GUI приложения пока что выполнен в достаточн�
 
 #### После
 
-![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Menu(New).jpg)
+![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Labs(New).png)
 
 ### Окно лабораторных работ
 #### До
@@ -71,6 +71,6 @@ GUI приложения пока что выполнен в достаточн�
 
 #### После
 
-![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Labs(New).jpg)
+![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Labs(New).png)
 
 
