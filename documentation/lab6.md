@@ -44,3 +44,33 @@ GUI приложения пока что выполнен в достаточн�
 4) Разработка более удобных переходов между страницами;
 5) Добавление локализации приложения;
 5) Добавление отступов между элементами;
+
+## Результаты улучшения
+### Окно добавления дисциплин
+#### До:
+
+![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/AddWindow(Old).jpg)
+
+#### После:
+
+![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/AddWindow(New).jpg)
+
+### Меню
+#### До
+
+![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Menu.jpg)
+
+#### После
+
+![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Menu(New).jpg)
+
+### Окно лабораторных работ
+#### До
+
+![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Labs(Old).jpg)
+
+#### После
+
+![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Labs(New).jpg)
+
+
