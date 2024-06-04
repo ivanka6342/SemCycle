@@ -49,28 +49,28 @@ GUI приложения пока что выполнен в достаточн�
 ### Окно добавления дисциплин
 #### До:
 
-![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/AddWindow(Old).jpg)
+![](https://github.com/ivanka6342/SemCycle/blob/master/documentation/Screenshots/AddWindow(Old).jpg)
 
 #### После:
 
-![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/AddWindow(New).jpg)
+![](https://github.com/ivanka6342/SemCycle/blob/master/documentation/Screenshots/AddWindow(New).jpg)
 
 ### Меню
 #### До
 
-![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Menu.jpg)
+![](https://github.com/ivanka6342/SemCycle/blob/master/documentation/Screenshots/Menu.jpg)
 
 #### После
 
-![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Labs(New).png)
+![](https://github.com/ivanka6342/SemCycle/blob/master/documentation/Screenshots/Labs(New).png)
 
 ### Окно лабораторных работ
 #### До
 
-![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Labs(Old).jpg)
+![](https://github.com/ivanka6342/SemCycle/blob/master/documentation/Screenshots/Labs(Old).jpg)
 
 #### После
 
-![](https://github.com/amidovitch/SemCycle/blob/master/documentation/Screenshots/Labs(New).png)
+![](https://github.com/ivanka6342/SemCycle/blob/master/documentation/Screenshots/Labs(New).png)
 
 

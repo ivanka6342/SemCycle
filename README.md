@@ -85,11 +85,11 @@
 ## Часть 2 <a name="part2"/></a>
 
 ### To Be Архитектура: <a name="to_be"></a>
-Архитектурное решение команды по реализации идеи можно увидеть на [структурной схеме](https://github.com/amidovitch/SemCycle/blob/master/view/architecture/structure.png) <br>
-Наглядный пример желаемого GUI приведен с помощью [мокапов](https://github.com/amidovitch/SemCycle/tree/master/view/mockups) <br>
+Архитектурное решение команды по реализации идеи можно увидеть на [структурной схеме](https://github.com/ivanka6342/SemCycle/blob/master/view/architecture/structure.png) <br>
+Наглядный пример желаемого GUI приведен с помощью [мокапов](https://github.com/ivanka6342/SemCycle/tree/master/view/mockups) <br>
   
 ### As is architecture:<a name="as_is"/></a>
-[Диаграмма классов](https://github.com/amidovitch/SemCycle/blob/master/documentation/DiagramsUML/classes/ClassDiagram.png)  <br>
+[Диаграмма классов](https://github.com/ivanka6342/SemCycle/blob/master/documentation/DiagramsUML/classes/ClassDiagram.png)  <br>
 
 ## Часть 3 <a name="part3"/></a>
 
